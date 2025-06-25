@@ -14,7 +14,7 @@ ENTRYPOINT ["python3"]
 CMD ["app.py"]
 
 FROM builder as dev-envs
-
+# updte the container
 RUN <<EOF
 apk update
 apk add git
